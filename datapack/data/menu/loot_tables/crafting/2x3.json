@@ -1,0 +1,579 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:oak_planks\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:oak_door",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Oak Door\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								},
+								{
+									"function": "set_count",
+									"count": 3
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:spruce_planks\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:spruce_planks\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:spruce_planks\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:spruce_planks\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:spruce_planks\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:spruce_planks\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:spruce_door",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Spruce Door\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								},
+								{
+									"function": "set_count",
+									"count": 3
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:birch_planks\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:birch_planks\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:birch_planks\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:birch_planks\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:birch_planks\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:birch_planks\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:birch_door",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Birch Door\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								},
+								{
+									"function": "set_count",
+									"count": 3
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:jungle_planks\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:jungle_planks\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:jungle_planks\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:jungle_planks\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:jungle_planks\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:jungle_planks\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:jungle_door",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Jungle Door\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								},
+								{
+									"function": "set_count",
+									"count": 3
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:dark_oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:dark_oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:dark_oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:dark_oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:dark_oak_planks\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:dark_oak_planks\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:dark_oak_door",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Dark Oak Door\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								},
+								{
+									"function": "set_count",
+									"count": 3
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:acacia_planks\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:acacia_planks\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:acacia_planks\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:acacia_planks\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:acacia_planks\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:acacia_planks\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:acacia_door",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Acacia Door\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								},
+								{
+									"function": "set_count",
+									"count": 3
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:1b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:2b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:wooden_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+10\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:10,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:stone_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+15\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:15,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:golden_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+20\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:20,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:iron_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+25\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:25,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:diamond_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+30\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:30,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:1b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:wooden_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+10\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:10,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:stone_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+15\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:15,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:golden_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+20\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:20,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:iron_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+25\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:25,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:diamond_axe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+30\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:30,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:1b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:wooden_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:10,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:stone_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:15,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:golden_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:20,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:iron_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:25,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:3b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:4b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:5b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:diamond_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:30,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:1b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:wooden_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:10,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:stone_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:15,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:golden_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:20,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:iron_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:25,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:4b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:air\",tag:{no_nbt:1b}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:diamond_hoe",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{HideFlags:62,Unbreakable:1b,Base:{Damage:30,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:paper\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:2b,id:\"minecraft:paper\",tag:{Base:{Vanilla:1b}}},{Slot:3b,id:\"minecraft:air\",tag:{no_nbt:1b}},{Slot:4b,id:\"minecraft:paper\",tag:{Base:{Vanilla:1b}}},{Slot:5b,id:\"minecraft:leather\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:book",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Book\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:paper\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:paper\",tag:{Base:{Vanilla:1b}}},{Slot:2b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:3b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:4b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:5b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:cartography_table",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:flint\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:flint\",tag:{Base:{Vanilla:1b}}},{Slot:2b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:3b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:4b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:5b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:fletching_table",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:3b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:4b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:5b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:smithing_table",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

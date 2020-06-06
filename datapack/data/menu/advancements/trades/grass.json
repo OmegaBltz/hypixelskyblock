@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "inventory": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 4
+                        },
+                        "item": "minecraft:dirt"
+                    }
+                ]
+            }
+        },
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "menu:trades/grass_block"
+    }
+}

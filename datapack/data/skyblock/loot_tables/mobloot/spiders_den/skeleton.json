@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Bone\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ]
+    }
+  ]
+}

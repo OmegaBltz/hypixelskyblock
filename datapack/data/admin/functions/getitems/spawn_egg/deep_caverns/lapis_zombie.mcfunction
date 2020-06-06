@@ -1,0 +1,8 @@
+#==================NOTE====================#
+# This function was coded by BlueCommander #
+# Please don't claim this as your own work #
+#   LINK www.youtube.com/c/BlueCommander   #
+#==========================================#
+#-------------SUMMON COMMAND---------------#
+give @p minecraft:turtle_spawn_egg{Base:{Type:"Other",Rarity:"Epic"},display:{Name:'{"text":"Lapis Zombie Spawn Egg","color":"dark_purple","italic":false}',Lore:['[{"text":"From ","color":"white","italic":false},{"text":"Deep Caverns","color":"aqua","italic":false}]','{"text":""}','[{"text":"EPIC","color":"dark_purple","italic":false,"bold":true}]']},EntityTag:{id:"minecraft:zombie",CustomName:'{"text":"Lapis Zombie","color":"red","italic":false}',Tags:["LapisZombie"],PortalCooldown:7,DeathLootTable:"skyblock:mobloot/deep_caverns/zombie",Attributes:[{Name:generic.maxHealth,Base:200},{Name:generic.attackDamage,Base:50}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{Base:{Type:"Other",Rarity:"Epic"},display:{color:255}}},{id:"minecraft:leather_leggings",Count:1b,tag:{Base:{Type:"Other",Rarity:"Epic"},display:{color:255}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{Base:{Type:"Other",Rarity:"Epic"},display:{color:255}}},{id:"minecraft:blue_stained_glass",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],CanPickUpLoot:0b,IsBaby:0b,HandItems:[{id:"air",Count:1b},{}]}}
+#------------------------------------------#

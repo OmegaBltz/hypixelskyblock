@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "inventory": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1
+                        },
+                        "item": "minecraft:oak_log"
+                    }
+                ]
+            }
+        },
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "menu:trades/coal"
+    }
+}

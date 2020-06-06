@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Rotten Flesh\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        }
+      ]
+    },    
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Rotten Flesh\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Base:{Vanilla:1b,Type:\"Brewing Ingredient\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Gold Ingot\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+            },
+			      {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 9
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Base:{Vanilla:1b,Type:\"Brewing Ingredient\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Gold Ingot\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+            },
+			      {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

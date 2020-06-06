@@ -1,0 +1,301 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:wooden_shovel",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+15\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:15,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:stone_shovel",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+20\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:20,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:golden_shovel",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+15\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:15,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:iron_shovel",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+25\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:25,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:diamond_shovel",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "set_nbt",
+									"tag": "{display:{Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+30\",\"color\":\"red\",\"italic\":false}]']},HideFlags:62,Unbreakable:1b,Base:{Damage:30,Strength:0},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497,Slot:\"mainhand\"}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:1b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:wooden_sword",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Sword\",Rarity:\"Common\",Reforge:\"\",Damage:20},HideFlags:63,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497}],display:{Name:'[{\"text\":\"Wooden Sword\",\"color\":\"white\",\"italic\":false}]',Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+20\",\"color\":\"red\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"COMMON SWORD\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:cobblestone\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:stone_sword",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Sword\",Rarity:\"Common\",Reforge:\"\",Damage:25},HideFlags:63,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497}],display:{Name:'[{\"text\":\"Stone Sword\",\"color\":\"white\",\"italic\":false}]',Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+25\",\"color\":\"red\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"COMMON SWORD\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:gold_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:golden_sword",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Sword\",Rarity:\"Common\",Reforge:\"\",Damage:20},HideFlags:63,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497}],display:{Name:'[{\"text\":\"Golden Sword\",\"color\":\"white\",\"italic\":false}]',Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+20\",\"color\":\"red\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"COMMON SWORD\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:iron_sword",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Sword\",Rarity:\"Common\",Reforge:\"\",Damage:30},HideFlags:63,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497}],display:{Name:'[{\"text\":\"Iron Sword\",\"color\":\"white\",\"italic\":false}]',Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+30\",\"color\":\"red\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"COMMON SWORD\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:diamond\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:diamond_sword",
+							"functions": [
+								{
+									"function": "set_count",
+									"count": 1
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Sword\",Rarity:\"Uncommon\",Reforge:\"\",Damage:35},HideFlags:63,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:548162,UUIDMost:333497}],display:{Name:'[{\"text\":\"Diamond Sword\",\"color\":\"green\",\"italic\":false}]',Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+35\",\"color\":\"red\",\"italic\":false}]','[{\"text\":\"\"}]','[{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"UNCOMMON SWORD\",\"color\":\"green\",\"italic\":false,\"bold\":true}]']}}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:shulker_shell\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:chest\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:shulker_shell\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:shulker_box",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Rare\"},display:{Name:'{\"text\":\"Shulker Box\",\"color\":\"blue\",\"italic\":false}',Lore:['[{\"text\":\"RARE\",\"color\":\"blue\",\"italic\":false,\"bold\":true}]']}}"
+								},
+								{
+									"function": "set_count",
+									"count": 1
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:flint\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:2b,id:\"minecraft:feather\",tag:{Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:arrow",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Arrow\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								},
+								{
+									"function": "set_count",
+									"count": 4
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"nbt": "{RecipeData:[{Slot:0b,id:\"minecraft:iron_ingot\",tag:{Base:{Vanilla:1b}}},{Slot:1b,id:\"minecraft:stick\",tag:{Base:{Vanilla:1b}}},{Slot:2b,tag:{RecipeTags:[\"PLANKS\"],Base:{Vanilla:1b}}}]}"
+									}
+								}
+							],
+							"type": "item",
+							"name": "minecraft:tripwire_hook",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Base:{Vanilla:1b,Type:\"Other\",Rarity:\"Common\"},display:{Name:'{\"text\":\"Tripwire Hook\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"COMMON\",\"color\":\"white\",\"italic\":false,\"bold\":true}]']}}"
+								},
+								{
+									"function": "set_count",
+									"count": 2
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

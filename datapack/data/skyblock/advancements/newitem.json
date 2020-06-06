@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "inventory_not_full": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "skyblock:newitem"
+    }
+}

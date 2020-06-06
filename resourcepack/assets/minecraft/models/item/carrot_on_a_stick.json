@@ -1,0 +1,35 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1},"model": "item/wooden_sword"},
+        {"predicate": {"custom_model_data": 2},"model": "item/stone_sword"},
+        {"predicate": {"custom_model_data": 3},"model": "item/golden_sword"},
+        {"predicate": {"custom_model_data": 4},"model": "item/iron_sword"},
+        {"predicate": {"custom_model_data": 5},"model": "item/diamond_sword"},
+        {"predicate": {"custom_model_data": 6},"model": "item/wooden_shovel"},
+        {"predicate": {"custom_model_data": 7},"model": "item/stone_shovel"},
+        {"predicate": {"custom_model_data": 8},"model": "item/golden_shovel"},
+        {"predicate": {"custom_model_data": 9},"model": "item/iron_shovel"},
+        {"predicate": {"custom_model_data": 10},"model": "item/diamond_shovel"},
+        {"predicate": {"custom_model_data": 11},"model": "item/wooden_pickaxe"},
+        {"predicate": {"custom_model_data": 12},"model": "item/stone_pickaxe"},
+        {"predicate": {"custom_model_data": 13},"model": "item/golden_pickaxe"},
+        {"predicate": {"custom_model_data": 14},"model": "item/iron_pickaxe"},
+        {"predicate": {"custom_model_data": 15},"model": "item/diamond_pickaxe"},
+        {"predicate": {"custom_model_data": 16},"model": "item/wooden_axe"},
+        {"predicate": {"custom_model_data": 17},"model": "item/stone_axe"},
+        {"predicate": {"custom_model_data": 18},"model": "item/golden_axe"},
+        {"predicate": {"custom_model_data": 19},"model": "item/iron_axe"},
+        {"predicate": {"custom_model_data": 20},"model": "item/diamond_axe"},
+        {"predicate": {"custom_model_data": 21},"model": "item/wooden_hoe"},
+        {"predicate": {"custom_model_data": 22},"model": "item/stone_hoe"},
+        {"predicate": {"custom_model_data": 23},"model": "item/golden_hoe"},
+        {"predicate": {"custom_model_data": 24},"model": "item/iron_hoe"},
+        {"predicate": {"custom_model_data": 25},"model": "item/diamond_hoe"},
+		{"predicate": {"custom_model_data": 100},"model": "blue/menu/black_glass"},
+        {"predicate": {"custom_model_data": 101},"model": "blue/menu/light_gray_glass"}
+    ]
+}

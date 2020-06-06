@@ -1,0 +1,10 @@
+execute if score @s Coins matches 300..309 run function profiling:reloadmoneysidebar/300-309
+execute if score @s Coins matches 310..319 run function profiling:reloadmoneysidebar/310-319
+execute if score @s Coins matches 320..329 run function profiling:reloadmoneysidebar/320-329
+execute if score @s Coins matches 330..339 run function profiling:reloadmoneysidebar/330-339
+execute if score @s Coins matches 340..349 run function profiling:reloadmoneysidebar/340-349
+execute if score @s Coins matches 350..359 run function profiling:reloadmoneysidebar/350-359
+execute if score @s Coins matches 360..369 run function profiling:reloadmoneysidebar/360-369
+execute if score @s Coins matches 370..379 run function profiling:reloadmoneysidebar/370-379
+execute if score @s Coins matches 380..389 run function profiling:reloadmoneysidebar/380-389
+execute if score @s Coins matches 390..399 run function profiling:reloadmoneysidebar/390-399
